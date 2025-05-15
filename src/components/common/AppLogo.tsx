@@ -1,5 +1,5 @@
 import { HTMLAttributes } from 'react'
-import { Glass } from 'lucide-react'
+import { Wine } from 'lucide-react'
 import { cn } from '../../lib/utils'
 
 interface AppLogoProps extends HTMLAttributes<HTMLDivElement> {
@@ -9,7 +9,7 @@ interface AppLogoProps extends HTMLAttributes<HTMLDivElement> {
 export function AppLogo({ size = 24, className, ...props }: AppLogoProps) {
   return (
     <div className={cn('relative flex items-center justify-center', className)} {...props}>
-      <Glass
+      <Wine
         className="text-amber-500"
         size={size}
         strokeWidth={1.5}
