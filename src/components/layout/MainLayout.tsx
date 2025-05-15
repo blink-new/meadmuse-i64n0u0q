@@ -13,10 +13,10 @@ import {
   SidebarMenuItem, 
   SidebarProvider, 
   SidebarTrigger 
-} from '@/components/ui/sidebar'
+} from '../../components/ui/sidebar'
 import { PlusCircle, MessageSquare, Book, LayoutGrid, Wrench, Settings, User } from 'lucide-react'
-import { Button } from '@/components/ui/button'
-import { AppLogo } from '@/components/common/AppLogo'
+import { Button } from '../../components/ui/button'
+import { AppLogo } from '../../components/common/AppLogo'
 
 interface MainLayoutProps {
   children: ReactNode

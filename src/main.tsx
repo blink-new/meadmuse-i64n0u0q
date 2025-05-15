@@ -4,9 +4,12 @@ import { Toaster } from 'react-hot-toast'
 import App from './App'
 import './index.css'
 
+// Make sure paths with @ alias work properly
+window.global = window;
+
 ReactDOM.createRoot(document.getElementById('root')!).render(
   <React.StrictMode>
     <Toaster position="top-right" />
     <App />
   </React.StrictMode>,
-) 
+)
